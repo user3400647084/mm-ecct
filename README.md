@@ -20,7 +20,7 @@ BER performances of non-systematic mask (NSM) ECCT, systematic mask (SM) ECCT, m
 Codes for training DM ECCT on GPU 0, 3 decoder layers, dimension 128 on BCH codes (31,11)
 
 ```python
-python Main.py --ecct_type=DM --gpu=0 --N_dec=3 --d_model=128 --code_type=BCH --code_n=31--code_k=11
+python Main.py --ecct_type=DM --gpu=0 --N_dec=3 --d_model=128 --code_type=BCH --code_n=31 --code_k=11
 ```
 
 # Code arguments
